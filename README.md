@@ -1,11 +1,10 @@
-
 This is a container for several "hello world" kind of pods, with the intent of 
 learning [Fantom](http://fantom.org) programming language features.
 
 I'm particularly interested in Fantom to JavaScript compilation, and wrapping 
 third-party JavaScript libraries in Fantom code 
 (see http://fantom.org/sidewalk/topic/1109). I have decided to break the 
-complexity of this task into several steps, each one building uppon the 
+complexity of this task into several steps, each one building upon the 
 previous one. The result of each step can be used as a staring template for 
 similar  projects.
 
@@ -26,7 +25,7 @@ Sandbox
 
 The sandbox includes html files which can be used to demo the result of each 
 step. The purpose is to be able to check things rapidly, and these files are not
- at all intented for distribuction.
+ at all intended for distribution.
 
 The JavaScript files in the sandbox, were manually extracted from the Fantom 
 generated pods. A production environment shouldn't rely on these sandbox 
@@ -37,17 +36,16 @@ License Information
 ===================
 
 Fantom is licensed under the [Academic Free License 3.0](http://fantom.org/doc/docIntro/License.html). The JavaScript files included in 
-the sandbox directory were created by the Fantom build.
+the sandbox directory were created by the Fantom build, and remain under the Fantom license.
 
 All the code included in this project can be used for free as long as its use 
-remains compatible with Fantom licesing terms.
+remains compatible with Fantom licensing terms.
 
 Disclaimer
 ----------
 
 This software is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-Lesser General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
