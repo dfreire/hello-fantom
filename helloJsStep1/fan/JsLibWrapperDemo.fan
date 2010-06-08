@@ -4,6 +4,7 @@ class JsLibWrapperDemo
   Void run()
   {
     lib := JsLibWrapper()
-    lib.say("Hello JsLib!")
+    libName := lib.name()
+    lib.say("Hello $libName!")
   }
 }
