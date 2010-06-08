@@ -42,23 +42,24 @@ class. It binds JsLibWrapper.fan calls to JsLib.js.
 - **JsLibWrapperDemo.fan** is a Fantom @Js class that calls uses 
 helloJsStep/JsLibWrapper
 
-Sandbox
-=======
+Sandbox Directories
+===================
 
-The sandbox includes html files which can be used to demo the result of each 
-step. The purpose is to be able to check things rapidly, and these files are not
- at all intended for distribution.
+The sandbox directories include html files which can be used to demo the result 
+of each step. The purpose is to be able to check things rapidly, and these 
+files are not at all intended for distribution.
 
-The JavaScript files in the sandbox, were manually extracted from the Fantom 
-generated pods. A production environment shouldn't rely on these sandbox 
-JavaScript files and should rely on what is actually generated during the Fantom
- build.
+The JavaScript files in the sandbox directories, were manually extracted from 
+the Fantom generated pods. A production environment shouldn't rely on these 
+sandbox JavaScript files and should rely on what is actually generated during 
+the Fantom build.
  
 License Information
 ===================
 
-Fantom is licensed under the [Academic Free License 3.0](http://fantom.org/doc/docIntro/License.html). The JavaScript files included in 
-the sandbox directory were created by the Fantom build, and remain under the Fantom license.
+Fantom is licensed under the [Academic Free License 3.0](http://fantom.org/doc/docIntro/License.html). 
+The JavaScript files included in the sandbox directories were copied from the 
+Fantom build, and remain under the Fantom license.
 
 All the code included in this project can be used for free as long as its use 
 remains compatible with Fantom licensing terms.
