@@ -27,7 +27,7 @@ Step 2
 
 This is the same thing as step 1, with one relevant difference. Now we have two 
 pods instead of one. We have **helloJsStep2** which is the API (i.e. the 
-wrapper of JavaScript library), and **helloJsStep2Demo** which is the 
+wrapper of the JavaScript library), and **helloJsStep2Demo** which is the 
 API-client.
 
 **helloJsStep2**:
