@@ -16,8 +16,8 @@ JavaScript object. In this step, everything goes in the same pod.
 
 - **JsLibWrapperDemo.fan** is a Fantom @Js class that calls JsLibWrapper.fan.
 - **JsLibWrapper.fan** is a Fantom native class that wrapps JsLib.js functions.
-- **JsLibWrapperPeer.js** is the JavaScript peer for the Fantom native class. 
-It binds JsLibWrapper.fan calls to JsLib.js.
+- **JsLibWrapper.js** is the JavaScript implementation for the Fantom native 
+class. It binds JsLibWrapper.fan calls to JsLib.js.
 - **JsLib.js** represents the JavaScript third-party library.
 
 Sandbox
