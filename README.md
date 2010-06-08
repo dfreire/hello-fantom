@@ -8,11 +8,13 @@ complexity of this task into several steps, each one building upon the
 previous one. The result of each step can be used as a staring template for 
 similar  projects.
 
-helloJsStep1
-============
+Step 1
+======
 
 This is the first step and it represents a simple Fantom class wrapping a 
-JavaScript object. In this step, everything goes in the same pod:
+JavaScript object. In this step, everything goes in the same pod.
+
+**helloJsStep1**:
 
 - **JsLibWrapperDemo.fan** is a Fantom @Js class that uses JsLibWrapper.fan.
 - **JsLibWrapper.fan** is a Fantom native class that wraps JsLib.js functions.
@@ -20,8 +22,8 @@ JavaScript object. In this step, everything goes in the same pod:
 class. It binds JsLibWrapper.fan calls to JsLib.js.
 - **JsLib.js** represents the JavaScript third-party library.
 
-helloJsStep2
-============
+Step 2
+======
 
 This is the same thing as step 1, with one relevant difference. Now we have two 
 pods instead of one. We have **helloJsStep2** which is the API (i.e. the 
