@@ -1,6 +1,5 @@
 using build
-
-class Build : BuildPod
+class Build : build::BuildPod
 {
   new make()
   {
