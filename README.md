@@ -42,6 +42,24 @@ class. It binds JsLibWrapper.fan calls to JsLib.js.
 - **JsLibWrapperDemo.fan** is a Fantom @Js class that calls uses 
 helloJsStep/JsLibWrapper
 
+Step 3
+======
+
+This is the same thing as step 2, but with no **sandbox** directory, and instead
+ using a WebMod to load JavaScript and HTML files. 
+ 
+The demo runs with:
+`fan helloJsStep3Demo/fan/Demo.fan`
+
+Open the web browser in:
+http://localhost:8080/
+or:
+http://localhost:8080/pod/helloJsStep3Demo/res/index.html
+
+**Demo.fan** exemplifies the both ways to access static content stored inside 
+existent pods: either build the index dinamically or provide it via an html 
+file.
+
 Sandbox Directories
 ===================
 
