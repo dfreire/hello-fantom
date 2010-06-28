@@ -2,8 +2,7 @@ This is a container for several "hello world" kind of pods, with the intent of
 learning [Fantom](http://fantom.org) programming language features.
 
 I'm particularly interested in Fantom to JavaScript compilation, and wrapping 
-third-party JavaScript libraries in Fantom code 
-(see [here](http://fantom.org/sidewalk/topic/1109)). I have decided to break the 
+third-party JavaScript libraries in Fantom code. I have decided to break the 
 complexity of this task into several steps, each one building upon the 
 previous one.
 
