@@ -5,8 +5,7 @@ I'm particularly interested in Fantom to JavaScript compilation, and wrapping
 third-party JavaScript libraries in Fantom code 
 (see [here](http://fantom.org/sidewalk/topic/1109)). I have decided to break the 
 complexity of this task into several steps, each one building upon the 
-previous one. The result of each step can be used as a staring template for 
-similar  projects.
+previous one.
 
 Step 1
 ======
